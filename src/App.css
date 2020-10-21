@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  height: 100vh;
   background: rgb(0,7,185);
   background: linear-gradient(139deg, rgba(0,7,185,0.7343312324929971) 0%, rgba(0,7,185,0.700717787114846) 54%, rgba(0,0,185,1) 100%);
 }
