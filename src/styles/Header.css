@@ -1,0 +1,22 @@
+.logo {
+    display: flex;
+    padding: 0 auto;
+  }
+  
+  #logo {
+    height: 4rem;
+    margin: 10px auto 5px;
+  }
+  
+  .title {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  p {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 auto;
+  }
