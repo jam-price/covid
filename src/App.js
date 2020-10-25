@@ -11,6 +11,8 @@ function App() {
   const [country, setCountry] = useState('england');
   console.log(country)
 
+  // documentation https://coronavirus.data.gov.uk/developers-guide
+
   let url = `https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=nation;areaName=${country}&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}`;
 
   const getData = async () => {
