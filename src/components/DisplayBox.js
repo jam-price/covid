@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/DisplayBox.css'
 
 const DisplayBox = (props) => {
-    console.log(props)
+    // console.log(props)
 
     return (
         <div className="display-boxes">

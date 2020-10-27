@@ -18,6 +18,12 @@ const SearchBar = (props) => {
         props.setLocalArea(e.target.value)
     }
 
+    const handleLocalAreaChangeKey = (e) => {
+        if(e.charCode = 13){
+            console.log(e.charCode)
+        }   
+    }
+
     let secondForm;
         if(props.areaType === 'nation') {
             secondForm = (
@@ -48,7 +54,7 @@ const SearchBar = (props) => {
         )
     } else {
         secondForm = (
-            <input type="text" onChange={handleLocalAreaChange} onKeyPress={handleLocalAreaChange} value={props.localArea}/>
+            <input type="text" onChange={handleLocalAreaChange} onKeyPress={handleLocalAreaChangeKey} value={props.localArea}/>
         )
     }
 

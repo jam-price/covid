@@ -7,7 +7,7 @@ const Display = (props) => {
     let todayDate = props.data[0].date;
     todayDate = <span>{todayData.date}</span>;
 
-    console.log(props.data)
+    // console.log(props.data)
 
 
     return (
